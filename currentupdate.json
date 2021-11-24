@@ -1,3 +1,4 @@
 {
-  "avatible": "2.0.1" 
+  "avatible": "2.0.1",
+  "filemap": "https://raw.githubusercontent.com/FacioCMS/faciocms2/testupdate/updatemap.json"
 }
