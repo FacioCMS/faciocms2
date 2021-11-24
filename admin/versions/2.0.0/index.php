@@ -187,6 +187,11 @@
                     </div>
 
                     <div class="input-group">
+                        <label class="form-label" for="page-link">Link</label>
+                        <input class="form-input" type="text" id="page-link" name="pagelink" value="<?php echo $page["link"]; ?>">
+                    </div>
+
+                    <div class="input-group">
                         <label class="form-label" for="pageisdefault">Home Page</label>
                         <input class="form-checkbox" type="checkbox" <?php echo $page["isDefault"] == 1 ? 'checked' : '' ?> id="pageisdefault" name="isdefault">
                     </div>
@@ -423,7 +428,7 @@
                     echo "<h2 class='update-info'>Update is avatible (v.$ver)</h2> <button class='btn-start-updating'>Start Update!</button>";
                 }
                 else {
-                    echo "<h2 class='update-info'>Your FacioCMS is updated to lasted version!</h2>";
+                    echo "<h2 class='update-info'>Your FacioCMS is updated to newest version!</h2>";
                 }
                 
             ?>
