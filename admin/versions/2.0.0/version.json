@@ -1,0 +1,11 @@
+{
+    "version": {
+        "number": "2.0.0",
+        "dev_version": false,
+        "stable": true,
+        "shortname": null
+    },
+    "isSnapshot": false,
+    "allowPreviousVersions": false,
+    "map": []
+}

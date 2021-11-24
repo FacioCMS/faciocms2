@@ -1,0 +1,88 @@
+<title>FacioCMS - Docs</title>
+<meta charset="utf-8">
+<div class="error">
+    <h1>FacioCMS, <br> onAdminPanelStart() returning 0</h1>
+    <p>
+        <h2>What does return 1;</h2>
+        <p>
+            Returning value 1 tells our plugin loader that this function executed correctly.
+        </p>
+        <h3>Example:</h3>
+        <p>
+            Our plugin should load only when SESSION isDarkmode == "enabled" <br>
+            Code: <br>
+            <textarea>
+public function onAdminPanelStart(): int {
+    if($_SESSION["isDarkmode"] == "enabled") {
+        include 'darkmode.php';
+        return 1; // Load plugin
+    }
+
+    return 0; // Don't load this plugin
+}
+            </textarea>
+        </p>
+    </p>
+</div>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+    * {
+        margin: 0;
+        padding: 0;
+        font-family: 'Rubik', sans-serif;
+        box-sizing: border-box;
+        user-select: none;
+    }
+
+    body {
+        background: #111;
+        width: 100%;
+        height: 100vh;
+        padding: 100px;
+        color: #fff;
+    }
+
+    h1 {
+        font-size: 50px;
+        margin-bottom: 10px;
+        color: #09f;
+        border-bottom: 5px solid #09f;
+        width: 770px;
+    }
+
+    h2 {
+        font-size: 40px;
+        margin: 20px 50px;
+    }
+
+    h3 {
+        margin: 20px 0;
+        font-size: 40px;
+    }
+
+    p {
+        font-size: 30px;
+    }
+
+    ul {
+        list-style-type: none;
+        padding-left: 10px;
+        font-size: 20px;
+        margin-top: 50px;
+    }
+
+    div[contenteditable], textarea {
+        outline: 0;
+        background: 0;
+        border: 0;
+        background: #0004;
+        padding: 10px;
+        margin: 10px 0;
+        font-size: 30px;
+        pointer-events: none;
+        width: 100%;
+        resize: none;
+        height: 400px;
+        color: #fff;
+    }
+</style>

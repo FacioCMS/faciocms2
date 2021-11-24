@@ -1,0 +1,14 @@
+# Template Config;
+# FacioCMS Template information for user ;
+Name = Page;
+TemplateVersion = 0.0.1;
+Author = Facio;
+Description = A page template;
+
+# FacioCMS Template information for FacioCMS ;
+fcms:TemplateFile = page.php;
+fcms:MinVersion = 2.0.0; # By this faciocms will check if template can be used in using faciocms version ;
+fcms:StableVersion = 2.0.0; # Stable Version ; 
+
+# FacioCMS Danger ; 
+danger:AllowUncompatibileVersion = false; # Probably template won't render or render uncorrectly if version is uncompatibile ;
