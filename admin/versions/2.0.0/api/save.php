@@ -6,6 +6,7 @@ saving...
     $isdefault = @$_POST["isdefault"] == 'on' ? 1 : 0;
     $pageid = $_POST["pageid"];
     $template = $_POST["template"];
+    $link = $_POST["pagelink"];
     
     // echo "<strong>Updating for:</strong> <br> $name <br> $content <br> $isdefault <br> $authToken";
 
@@ -17,7 +18,7 @@ saving...
     echo $pageid;
 
     if(authApi($authToken) == true) {
-        $query = "UPDATE pages SET name = '$name', content = '$content', isDefault = '$isdefault', template= '$template' WHERE id = '$pageid'";
+        $query = "UPDATE pages SET name = '$name', content = '$content', isDefault = '$isdefault', template= '$template', link = '$link' WHERE id = '$pageid'";
         if($db->query($query)) {
             echo $query;
             echo "<script>window.close();</script>";
