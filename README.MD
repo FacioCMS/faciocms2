@@ -2,6 +2,7 @@
 # FacioCMS - PHP-Based Free CMS
 
 FacioCMS is free content management system.
+(if you have trouble with faciocms updater, info is below)
 
 # Advantagements
 + FacioCMS is PHP-based  Fast, Powerful, Intuitial with Modern UI. 
@@ -33,3 +34,6 @@ Right now FacioCMS is my school project. I'm in second grade of High School.
 
 Hate: Python
 Love: JS & CSS
+
+# ABOUT FacioCMS UPDATER:
+In version 2.0.0 or 2.1.0 after installing new update, you need to change in table `fcms-settings` value `fcms-version` to version which you installed!
