@@ -1,7 +1,7 @@
 
 # FacioCMS - PHP-Based Free CMS
 
-FacioCMS is free content management system.
+FacioCMS is free content management system. \
 (if you have trouble with faciocms updater, info is below)
 
 # Advantagements
