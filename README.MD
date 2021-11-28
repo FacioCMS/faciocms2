@@ -4,7 +4,7 @@
 FacioCMS is free content management system.
 
 # Advantagements
-+ FacioCMS is PHP-based  Fast, Powerful, Intuitial with Modern UI. \
++ FacioCMS is PHP-based  Fast, Powerful, Intuitial with Modern UI. 
 + MySQL Database
 + Built-in Updater
 + Plugin Loader
