@@ -16,7 +16,9 @@ FacioCMS is free content management system. \
 FacioCMS requires PHP v.8.0.0+
 
 # Documentation 
-https://faciocms.tk/?path=docs
+https://faciocms.tk/docs
+If you have trouble: https://discord.gg/QJCBtfbx
+Or DM Me: Facio#9257
 
 # About project
 FacioCMS is created with passion project. \
