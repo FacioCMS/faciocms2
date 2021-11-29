@@ -1,5 +1,5 @@
 
-# FacioCMS - PHP-Based Free CMS
+# FacioCMS - PHP-Based Free CMS (Open Source Project)
 
 FacioCMS is free content management system. \
 (if you have trouble with faciocms updater, info is below)
