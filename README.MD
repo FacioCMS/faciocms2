@@ -1,4 +1,4 @@
-
+( updater currently is disabled (hosting for updates waiting for payment :o ) )
 # FacioCMS - PHP-Based Free CMS (Open Source Project)
 
 FacioCMS is free content management system. \
