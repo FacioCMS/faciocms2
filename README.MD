@@ -11,6 +11,7 @@ FacioCMS is free content management system. \
 + Plugin Loader
 + Liblary for templates
 + Free forever.
++ Lightweight
 
 # Disadvantagements
 FacioCMS requires PHP v.8.0.0+
