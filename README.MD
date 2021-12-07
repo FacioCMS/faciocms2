@@ -16,6 +16,9 @@ FacioCMS is free content management system. \
 # Disadvantagements
 FacioCMS requires PHP v.8.0.0+
 
+# CLI
+`npm i fcmscli`
+
 # Documentation 
 https://faciocms.tk/docs \
 If you have trouble: https://discord.gg/QJCBtfbx
