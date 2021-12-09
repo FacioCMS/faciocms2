@@ -417,7 +417,7 @@
             </div>
         <?php elseif($route == "Updater"): ?>
             <?php
-                $url = "https://faciocms.tk/fcms-updates/currentUpdate.json";
+                $url = "https://faciocms.com/fcms-updates/currentUpdate.json";
                 $data = file_get_contents($url);
                 $data_parsed = json_decode($data);
                 $ver = $data_parsed->{'avatible'};
