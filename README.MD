@@ -1,6 +1,6 @@
 # FacioCMS - PHP-Based Free CMS (Open Source Project)
 
-FacioCMS is free content management system. \
+FacioCMS is free content management system. 
 
 # Advantagements
 + FacioCMS is PHP-based  Fast, Powerful, Intuitial with Modern UI. 
