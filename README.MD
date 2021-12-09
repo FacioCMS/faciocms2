@@ -1,8 +1,6 @@
-( updater currently is disabled (hosting for updates waiting for payment :o ) )
 # FacioCMS - PHP-Based Free CMS (Open Source Project)
 
 FacioCMS is free content management system. \
-(if you have trouble with faciocms updater, info is below)
 
 # Advantagements
 + FacioCMS is PHP-based  Fast, Powerful, Intuitial with Modern UI. 
@@ -20,7 +18,7 @@ FacioCMS requires PHP v.8.0.0+
 `npm i -g fcmscli`
 
 # Documentation 
-https://faciocms.tk/docs \
+https://faciocms.com/documentation \
 If you have trouble: https://discord.gg/QJCBtfbx
 Or DM Me: Facio#9257
 
