@@ -1,9 +1,9 @@
 # Template Config;
 # FacioCMS Template information for user ;
-Name = Page;
+Name = Default FacioCMS Template;
 TemplateVersion = 0.0.1;
 Author = Facio;
-Description = A page template;
+Description = Default FacioCMS Template for FacioCMS default page!;
 
 # FacioCMS Template information for FacioCMS ;
 fcms:TemplateFile = page.php;
