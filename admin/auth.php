@@ -17,7 +17,7 @@
     }
 
     $username = $_POST["username"];
-    $password = md5($_POST["password"]);
+    $password = hash('sha256', $_POST["password"]);
 
     if(!$username || !$password) {
         loginError("Invalid data!");
