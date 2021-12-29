@@ -1,1 +1,0 @@
-<!-- This is comment created by example plugin. -->
