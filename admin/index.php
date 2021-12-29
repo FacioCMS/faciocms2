@@ -7,7 +7,19 @@
     requireModule("../configuration/db.php"); // using module
     $db = getDatabaseConnection();
     $pluginsInstances = [];
-    $faciocmsVersion = "2.0.0";
+    $faciocmsVersion = "";
+
+    $query = "SELECT `fcms-version` FROM `fcms-settings` LIMIT 1";
+    if($r = $db->query($query)) {
+        if($r->num_rows > 0) {
+            while($row = $r->fetch_assoc()) {
+                $faciocmsVersion = $row["fcms-version"];
+            }
+        }
+        else {
+            echo "Database error";
+        }
+    }
 ?>
 <!DOCTYPE html>
 <html lang="en">
